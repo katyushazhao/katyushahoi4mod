@@ -1,4 +1,9 @@
 # katyushahoi4mod
 Performance Mod for Hearts of Iron 4
 
-Works by deleting the infantry divions that AI spams out while they are not at war. Does not delete the divs of major nations.
+Makes the AI stop making new units if they meet the following conditions:
+- Minor Nation
+- At Peace
+- More than 20 Divisions
+
+The AI will start making divisions again if these conditions are unmet.
